@@ -1,0 +1,50 @@
+body {
+	 margin: 0;
+	 padding: 0;
+}
+.background {
+	 text-align: center;
+	 padding: 2em;
+	 width: 100vw;
+	 min-height: 100vh;
+	 box-sizing: border-box;
+	 font-family: 'Josefin Slab', serif;
+	 background: linear-gradient(245deg, #e3392d, #5e0a04);
+	 background-size: 400% 400%;
+	 -webkit-animation: Vampire 17s ease infinite;
+	 -moz-animation: Vampire 17s ease infinite;
+	 animation: Vampire 17s ease infinite;
+}
+@-webkit-keyframes Vampire {
+	 0% {
+		 background-position: 0% 50%;
+	}
+	 50% {
+		 background-position: 100% 51%;
+	}
+	 100% {
+		 background-position: 0% 50%;
+	}
+}
+@-moz-keyframes Vampire {
+	 0% {
+		 background-position: 0% 50%;
+	}
+	 50% {
+		 background-position: 100% 51%;
+	}
+	 100% {
+		 background-position: 0% 50%;
+	}
+}
+@keyframes Vampire {
+	 0% {
+		 background-position: 0% 50%;
+	}
+	 50% {
+		 background-position: 100% 51%;
+	}
+	 100% {
+		 background-position: 0% 50%;
+	}
+}
